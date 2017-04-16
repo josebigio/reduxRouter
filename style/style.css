@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    background-color: #ff00ff;
+}
+.flex-item {
+    background-color: #ffddaa;
+    width:200px;
+    margin:20px;
+    height: 200px;
+}
+.html {
+    height:100%
+}

@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
+import { fetchPosts } from '../actions';
+
 
 export default class App extends Component {
+
   render() {
+    console.log('app');
     return (
-      <div>React simple starter</div>
+      <div className="container" style={{padding:"20px", backgroundColor:"cornsilk", height:"100%"}}>
+        {this.props.children}
+      </div>
     );
   }
 }
