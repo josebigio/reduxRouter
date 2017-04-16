@@ -17,7 +17,7 @@ export function fetchPosts() {
                 console.log('success getting data',result);
                 dispatch({
                     type:FETCH_POSTS_SUCCESS,
-                    payload:result
+                    payload:result.data
                 });
             })
             .catch((error)=>{
